@@ -59,5 +59,7 @@ h4.club{
   50% { border-color: orange; }
 }
 
-
+.about-text{
+  letter-spacing:1px;
+}
 
