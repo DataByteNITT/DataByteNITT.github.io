@@ -14,8 +14,17 @@ header,
     background-size: cover;
 }
 
+.bg-black{
+  background: black;
+}
+
 .top-nav-collapse {
     background-color: #24355C;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
 }
 
 .skills{
