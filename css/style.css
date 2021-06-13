@@ -24,7 +24,7 @@ ul{
 }
 
 .top-nav-collapse {
-    background-color: #24355C;
+    background-color: rgb(61, 58, 58);
 }
 
 .col-centered{
@@ -38,10 +38,16 @@ ul{
 }
 
 #logo{
+    z-index: 200;
+    border-bottom-right-radius:10%;
+    border-bottom-left-radius:10%;
+    position: fixed;
+    top: 0;
+    left:10%;
 	padding-right: 0;
 	display: inline;
-	height: 5%;
-	width: 5%;
+	height: 4em;
+	width: 4em;
 }
 
 h2.club{
