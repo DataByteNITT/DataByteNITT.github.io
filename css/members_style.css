@@ -1,0 +1,39 @@
+.panel
+{
+
+	margin-left: 39%;
+	margin-top: 3%;
+
+}
+#title
+{
+  
+  margin-left: 39%;
+  font-size: 48px;
+  /*font-family: 'Montserrat', sans-serif;*/
+  font-weight: bold;
+}
+nav ul{
+margin-left: 10%;
+
+}
+
+.panel-content
+{
+	margin-left: 20%;
+	margin-top: 3%;
+	width: 75% ;
+	height: auto ;
+}
+
+
+/* not active */
+.nav-pills .pillclass .nav-link:not(.active) {
+    background-color: black;
+    color: white;
+}
+
+.nav-pills .pillclass .nav-link.active{
+    background-color: darkblue;
+    color: white;
+}
