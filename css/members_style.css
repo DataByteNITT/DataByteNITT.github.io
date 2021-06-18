@@ -1,8 +1,16 @@
 .panel
 {
 
-	margin-left: 39%;
+	margin-left: 20%;
 	margin-top: 3%;
+  width: 60% ;
+
+
+}
+body
+
+{
+  color: black;
 
 }
 #title
@@ -12,7 +20,10 @@
   font-size: 48px;
   /*font-family: 'Montserrat', sans-serif;*/
   font-weight: bold;
+
 }
+
+
 nav ul{
 margin-left: 10%;
 
@@ -22,18 +33,21 @@ margin-left: 10%;
 {
 	margin-left: 20%;
 	margin-top: 3%;
-	width: 75% ;
+	width: 60% ;
 	height: auto ;
 }
 
 
-/* not active */
-.nav-pills .pillclass .nav-link:not(.active) {
+/* not active 
+.nav-tabs .pillclass .nav-link:not(.active) {
     background-color: black;
     color: white;
-}
+    border: black;
 
-.nav-pills .pillclass .nav-link.active{
-    background-color: darkblue;
+}
+*/
+
+.nav-tabs .pillclass .nav-link.active{
+    background-color: black;
     color: white;
 }
