@@ -22,7 +22,11 @@ body
   font-weight: bold;
 
 }
+/* Nav Bar */
+ nav{
+  background-color:black;
 
+}
 
 nav ul{
 margin-left: 10%;

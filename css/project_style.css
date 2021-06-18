@@ -45,8 +45,9 @@ img{
   /*font-family: 'Montserrat', sans-serif;*/
   font-weight: bold;
 }
-nav ul{
-margin-left: 10%;
+/* Nav Bar */
+ nav{
+  background-color:black;
 
 }
 
@@ -56,8 +57,4 @@ margin-left: 10%;
 	margin-top: 3%;
 	width: 75% ;
 	height: auto ;
-}
-
-nav{
-    height: 30px;
 }
