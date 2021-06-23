@@ -28,7 +28,12 @@ body
   background-color:black;
 
 }
-
+.content{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+}
 nav ul{
 margin-left: 10%;
 
