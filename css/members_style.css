@@ -14,6 +14,16 @@ body
   background:none !important;
 
 }
+footer{
+    border-top: 5px solid rgb(82, 76, 76);
+    align-content: center;
+    margin-left: -20%;
+    
+}
+img{
+   width: auto;
+   height: 190px; 
+}
 #title
 {
   
@@ -28,7 +38,17 @@ body
   background-color:black;
 
 }
-
+.content{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+}
+.meta{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: large;
+}
 nav ul{
 margin-left: 10%;
 
@@ -36,7 +56,7 @@ margin-left: 10%;
 
 .panel-content
 {
-	margin-left: 20%;
+	margin-left: 25%;
 	margin-top: 3%;
 	width: 60% ;
 	height: auto ;

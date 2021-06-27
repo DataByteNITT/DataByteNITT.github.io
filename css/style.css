@@ -8,9 +8,9 @@ header,
 body{
 	background:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url("../img/dswc.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
-    	-moz-background-size: cover;
-    	-o-background-size: cover;
-    	background-size: cover;
+    -moz-background-size: cover;
+   	-o-background-size: cover;
+   	background-size: cover;
 	color: white;
 }
 .card{
@@ -35,7 +35,7 @@ ul{
 
 .carousel-caption{
 	background: black;
-	opacity: 0.7;
+	opacity: 0.8;
 }
 
 .skills{
@@ -62,13 +62,15 @@ h2.club{
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
+  font-size:6vw;
   animation: 
     typing 4s steps(30, end), blink-caret .75s step-end infinite;
 }
 h4.club{
     overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
-  white-space: nowrap;  
+  white-space: nowrap; 
+  font-size:2.5vw;
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
   animation: 
@@ -91,6 +93,13 @@ h4.club{
 .desc{
 	font-size:25px;
 }
-
+@media screen and (max-width: 500px){
+	a.smlink{
+		display:none;
+	}
+	div.sminfo{
+		display:none;
+	}
+}
 
 
